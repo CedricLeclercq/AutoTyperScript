@@ -20,6 +20,5 @@ time.sleep(10)
 
 # Looping over the range of iterations, typewriting the data and sleeping for 0.5 seconds
 for i in range(0, iterations):
-    for t in input.split():
-        pyautogui.typewrite(t + '\n')
-        time.sleep(0.5)
+    pyautogui.typewrite(input + '\n')
+    time.sleep(0.5)
