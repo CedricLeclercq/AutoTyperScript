@@ -1,5 +1,5 @@
 #	Make sure that:
-#		- Python has permission to type on your computer
+#		- Python has permission to control input on your computer
 #		- You have the library 'pyautogui' installed (if not, a simple google search will help you out)
 
 import pyautogui
